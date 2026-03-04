@@ -23,7 +23,7 @@ import { Button } from '@/components/ui/Button';
 import { Modal } from '@/components/ui/Modal';
 import { Card } from '@/components/ui/Card';
 import { EmptyState } from '@/components/ui/EmptyState';
-import { cn, formatNumber, computeTotalRate } from '@/lib/utils';
+import { cn, computeTotalRate } from '@/lib/utils';
 import type { RateEntry, ConfidenceLevel } from '@/types';
 
 // ── Types ─────────────────────────────────────────────────────────────────────

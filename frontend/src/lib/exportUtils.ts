@@ -1,4 +1,4 @@
-import type { Project, BOQSection, BOQItem, AppSettings } from '@/types';
+import type { Project, AppSettings } from '@/types';
 import { CURRENCY_SYMBOLS } from '@/data/constants';
 
 // ── CSV Export ───────────────────────────────────────────────────────────────

@@ -164,7 +164,7 @@ export const useRateLibraryStore = create<RateLibraryState>()(
         return filtered;
       },
 
-      findMatchingRates: (description, unit, industryId) => {
+      findMatchingRates: (description, _unit, industryId) => {
         const { rates } = get();
         const words = description.toLowerCase().split(/\s+/).filter((w) => w.length > 3);
         return rates

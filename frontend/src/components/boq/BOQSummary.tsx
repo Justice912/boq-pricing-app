@@ -1,4 +1,4 @@
-import { BarChart3, TrendingUp, Percent, Receipt, Layers } from 'lucide-react';
+import { BarChart3, TrendingUp, Layers } from 'lucide-react';
 import { useSettingsStore } from '@/stores/settingsStore';
 import { CURRENCY_SYMBOLS } from '@/data/constants';
 import { cn } from '@/lib/utils';
